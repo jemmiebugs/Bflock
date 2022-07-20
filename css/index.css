@@ -1518,7 +1518,8 @@ main>.underlay {
 }
 
 .hero_media {
-    margin-top: 20px
+    margin-top: 20px;
+    background: "red";
 }
 
 .hero_media lottie-player {
