@@ -165,9 +165,18 @@
     </header>
         <!-- pricing content start -->
         <main>
-            <div class="underlay"></div>
-            <section class="hero">
-                <div class="container d-lg-flex flex-row-reverse align-items-center">
+            <section>
+                <div class="page_main">
+                    <div class="underlay"></div>
+                    <div class="container">
+                        <div class="content-wrapper">
+                            <h1 class="page_main-header">Choose The Plan That's Right For You</h1>
+                            <p class="page_main-text">
+                                Donec accumsan, dolor ac malesuada rhoncus, leo arcu pellentesque dolor, nec tristique diam neque vitae sem.
+                                Nulla a lectus sollicitudin, volutpat lacus id, eleifend ipsum.
+                            </p>
+                        </div>
+                <!-- <div class="container d-lg-flex flex-row-reverse align-items-center">
                     <div class="hero_main col-lg-6">
                         <h1 class="hero_main-title" data-aos="fade-left">Choose The Plan That's Right For You</h1>
                         <p class="hero_main-text" data-aos="fade-left" data-aos-delay="50">
@@ -175,8 +184,8 @@
                             Vestibulum purus magna, auctor consectetur sem nec, consectetur porta purus. Duis eget nisi eleifend, laoreet
                             lacus
                         </p>
-                    </div>
-                    <div class="hero_media">
+                    </div> -->
+                    <!-- <div class="hero_media">
                         <lottie-player
                             src="lottie/scene.json"
                             background="transparent"
@@ -185,7 +194,7 @@
                             loop
                             autoplay
                         ></lottie-player>
-                    </div>
+                    </div> -->
                 </div>
             </section>
             <!-- pricing plans section start -->
@@ -195,7 +204,7 @@
                         <h2 class="pricing_header-title">Pricing plans for subscribers</h2>
                     </div>
                     <ul class="pricing_nav d-flex align-items-center justify-content-center nav nav-tabs" role="tablist">
-                        <li class="nav-item" role="presentation">
+                        <!-- <li class="nav-item" role="presentation">
                             <button
                                 class="nav-link active"
                                 id="daily-tab"
@@ -206,7 +215,7 @@
                                 aria-controls="daily"
                                 aria-selected="true"
                             >
-                                <span class="nav-link_text">One day</span>
+                                <span class="nav-link_text">1 Month</span>
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
@@ -220,7 +229,7 @@
                                 aria-controls="monthly"
                                 aria-selected="false"
                             >
-                                <span class="nav-link_text">Monthly</span>
+                                <span class="nav-link_text">3 Months</span>
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">
@@ -234,22 +243,22 @@
                                 aria-controls="annual"
                                 aria-selected="false"
                             >
-                                <span class="nav-link_text">Annual</span>
+                                <span class="nav-link_text">6 Months</span>
                             </button>
-                        </li>
+                        </li> -->
                     </ul>
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="daily" role="tabpanel" aria-labelledby="daily-tab">
                             <ul class="pricing_list d-md-flex flex-wrap">
-                                <li class="pricing_list-card col-md-6 col-lg-4" data-order="1" data-aos="fade-up">
+                                <li class="pricing_list-card col-md-3 col-lg-3" data-order="1" data-aos="fade-up">
                                     <div class="card-wrapper">
                                         <div class="top top--basic">
                                             <h5 class="top_title">Basic</h5>
                                             <div class="top_price d-flex align-items-center">
-                                                <span class="top_price-price h4">$ 1.99</span>
+                                                <span class="top_price-price h4">$ 10</span>
                                                 <p class="top_price-text d-flex flex-column">
                                                     <span>one</span>
-                                                    <span>day</span>
+                                                    <span>Month</span>
                                                 </p>
                                             </div>
                                         </div>
@@ -257,23 +266,23 @@
                                             <ul class="main_list">
                                                 <li class="main_list-item d-flex">
                                                     <i class="icon-check icon"></i>
-                                                    <p class="text">Nunc faucibus eros nec hendrerit viverra</p>
+                                                    <p class="text">Free Master Class Training</p>
                                                 </li>
                                                 <li class="main_list-item d-flex">
                                                     <i class="icon-check icon"></i>
-                                                    <p class="text">5 Morbi quis orci nec mauris auctor</p>
+                                                    <p class="text">Join the Community</p>
                                                 </li>
                                                 <li class="main_list-item d-flex">
                                                     <i class="icon-check icon"></i>
-                                                    <p class="text">27 faucibus eros nec hendrerit viverra</p>
+                                                    <p class="text">Room Challenge</p>
                                                 </li>
                                                 <li class="main_list-item d-flex exclude">
                                                     <i class="icon-check icon"></i>
-                                                    <p class="text">10 Nunc faucibus eros nec hendrerit viverra</p>
+                                                    <p class="text">Access to Book Review</p>
                                                 </li>
                                                 <li class="main_list-item d-flex exclude">
                                                     <i class="icon-check icon"></i>
-                                                    <p class="text">3Gb Nunc faucibus eros nec hendrerit viverra</p>
+                                                    <p class="text">Earn as you read</p>
                                                 </li>
                                             </ul>
                                             <a class="main_btn btn btn--gradient" href="#">
@@ -282,15 +291,15 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="pricing_list-card col-md-6 col-lg-4" data-order="2" data-aos="fade-up" data-aos-delay="50">
+                                <li class="pricing_list-card col-md-3 col-lg-3" data-order="2" data-aos="fade-up" data-aos-delay="50">
                                     <div class="card-wrapper">
                                         <div class="top top--advanced">
                                             <h5 class="top_title">Advanced</h5>
                                             <div class="top_price d-flex align-items-center">
-                                                <span class="top_price-price h4">$ 12.99</span>
+                                                <span class="top_price-price h4">$ 20</span>
                                                 <p class="top_price-text d-flex flex-column">
-                                                    <span>one</span>
-                                                    <span>day</span>
+                                                    <span>three</span>
+                                                    <span>months</span>
                                                 </p>
                                             </div>
                                         </div>
@@ -298,23 +307,23 @@
                                             <ul class="main_list">
                                                 <li class="main_list-item d-flex">
                                                     <i class="icon-check icon"></i>
-                                                    <p class="text">Nunc faucibus eros nec hendrerit viverra</p>
+                                                    <p class="text">Free Master Class Training</p>
                                                 </li>
                                                 <li class="main_list-item d-flex">
                                                     <i class="icon-check icon"></i>
-                                                    <p class="text">5 Morbi quis orci nec mauris auctor</p>
+                                                    <p class="text">Join the Community</p>
                                                 </li>
                                                 <li class="main_list-item d-flex">
                                                     <i class="icon-check icon"></i>
-                                                    <p class="text">27 faucibus eros nec hendrerit viverra</p>
-                                                </li>
-                                                <li class="main_list-item d-flex">
-                                                    <i class="icon-check icon"></i>
-                                                    <p class="text">10 Nunc faucibus eros nec hendrerit viverra</p>
+                                                    <p class="text">Room Challenge</p>
                                                 </li>
                                                 <li class="main_list-item d-flex exclude">
                                                     <i class="icon-check icon"></i>
-                                                    <p class="text">3Gb Nunc faucibus eros nec hendrerit viverra</p>
+                                                    <p class="text">Access to Book Review</p>
+                                                </li>
+                                                <li class="main_list-item d-flex exclude">
+                                                    <i class="icon-check icon"></i>
+                                                    <p class="text">Earn as you read</p>
                                                 </li>
                                             </ul>
                                             <a class="main_btn btn btn--gradient" href="#">
@@ -323,15 +332,15 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li class="pricing_list-card col-md-6 col-lg-4" data-order="3" data-aos="fade-up" data-aos-delay="100">
+                                <li class="pricing_list-card col-md-3 col-lg-3" data-order="3" data-aos="fade-up" data-aos-delay="100">
                                     <div class="card-wrapper">
                                         <div class="top top--corporate">
-                                            <h5 class="top_title">Corporate</h5>
+                                            <h5 class="top_title">Gold</h5>
                                             <div class="top_price d-flex align-items-center">
-                                                <span class="top_price-price h4">$ 120</span>
+                                                <span class="top_price-price h4">$ 35</span>
                                                 <p class="top_price-text d-flex flex-column">
-                                                    <span>one</span>
-                                                    <span>day</span>
+                                                    <span>six</span>
+                                                    <span>months</span>
                                                 </p>
                                             </div>
                                         </div>
@@ -339,23 +348,64 @@
                                             <ul class="main_list">
                                                 <li class="main_list-item d-flex">
                                                     <i class="icon-check icon"></i>
-                                                    <p class="text">Nunc faucibus eros nec hendrerit viverra</p>
+                                                    <p class="text">Free Master Class Training</p>
                                                 </li>
                                                 <li class="main_list-item d-flex">
                                                     <i class="icon-check icon"></i>
-                                                    <p class="text">5 Morbi quis orci nec mauris auctor</p>
+                                                    <p class="text">Join the Community</p>
                                                 </li>
                                                 <li class="main_list-item d-flex">
                                                     <i class="icon-check icon"></i>
-                                                    <p class="text">27 faucibus eros nec hendrerit viverra</p>
+                                                    <p class="text">Room Challenge</p>
+                                                </li>
+                                                <li class="main_list-item d-flex exclude">
+                                                    <i class="icon-check icon"></i>
+                                                    <p class="text">Access to Book Review</p>
+                                                </li>
+                                                <li class="main_list-item d-flex exclude">
+                                                    <i class="icon-check icon"></i>
+                                                    <p class="text">Earn as you read</p>
+                                                </li>
+                                            </ul>
+                                            <a class="main_btn btn btn--gradient" href="#">
+                                                <span class="text">Get This Plan</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="pricing_list-card col-md-3 col-lg-3" data-order="3" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="card-wrapper">
+                                        <div class="top top--corporate">
+                                            <h5 class="top_title">Platinum</h5>
+                                            <div class="top_price d-flex align-items-center">
+                                                <span class="top_price-price h4">$ 60</span>
+                                                <p class="top_price-text d-flex flex-column">
+                                                    <span>one</span>
+                                                    <span>year</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="main">
+                                            <ul class="main_list">
+                                                <li class="main_list-item d-flex">
+                                                    <i class="icon-check icon"></i>
+                                                    <p class="text">Free Master Class Training</p>
                                                 </li>
                                                 <li class="main_list-item d-flex">
                                                     <i class="icon-check icon"></i>
-                                                    <p class="text">10 Nunc faucibus eros nec hendrerit viverra</p>
+                                                    <p class="text">Join the Community</p>
                                                 </li>
                                                 <li class="main_list-item d-flex">
                                                     <i class="icon-check icon"></i>
-                                                    <p class="text">3Gb Nunc faucibus eros nec hendrerit viverra</p>
+                                                    <p class="text">Room Challenge</p>
+                                                </li>
+                                                <li class="main_list-item d-flex exclude">
+                                                    <i class="icon-check icon"></i>
+                                                    <p class="text">Access to Book Review</p>
+                                                </li>
+                                                <li class="main_list-item d-flex exclude">
+                                                    <i class="icon-check icon"></i>
+                                                    <p class="text">Earn as you read</p>
                                                 </li>
                                             </ul>
                                             <a class="main_btn btn btn--gradient" href="#">
@@ -366,7 +416,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="tab-pane fade" id="monthly" role="tabpanel" aria-labelledby="monthly-tab">
+                        <!-- <div class="tab-pane fade" id="monthly" role="tabpanel" aria-labelledby="monthly-tab">
                             <ul class="pricing_list d-md-flex flex-wrap">
                                 <li class="pricing_list-card col-md-6 col-lg-4" data-order="1" data-aos="fade-up">
                                     <div class="card-wrapper">
@@ -619,7 +669,7 @@
                                     </div>
                                 </li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                     <p class="pricing_text">
                         Uisque vehicula tellus ex, pulvinar varius massa pulvinar quis. Phasellus varius leo sit amet nisl auctor iaculis.
@@ -729,7 +779,7 @@
                             </div>
                         </div>
                     </div>
-                    <a class="faq_btn btn--arrow" href="faq.html">View all<i class="icon-arrow-right-solid icon"></i></a>
+                    <!-- <a class="faq_btn btn--arrow" href="faq.html">View all<i class="icon-arrow-right-solid icon"></i></a> -->
                 </div>
             </section>
 
@@ -743,11 +793,11 @@
                         <div class="logo header_logo">
                             <a class="d-inline-flex align-items-center" href="index.html">
                                 <span class="logo_picture">
-                                    <img src="svg/logo.svg" alt="Billionaire Flock"/>
+                                    <img src="svg/logo.svg" alt="Billionaire" />
                                 </span>
                                 <span class="text">
                                     <span class="brand">Billionaire Flock</span>
-                                    <!-- <span class="text_secondary">courses</span> -->
+                                    <!-- <span class="text_secondary">Flock</span> -->
                                 </span>
                             </a>
                         </div>
@@ -794,10 +844,10 @@
                             <li class="footer_block-nav_item">
                                 <a class="link" href="courses.html">All Courses</a>
                             </li>
-                            
+<!--                             
                             <li class="footer_block-nav_item">
                                 <a class="link" href="faq.html">FAQ</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                     <div class="footer_block col-sm-6 col-lg-auto m-sm-0" data-order="3">
@@ -821,7 +871,7 @@
                         <h5 class="footer_block-header">Youtube Channel:</h5>
                         <ul class="footer_block-instagram d-grid">
                             <li class="footer_block-instagram_item">
-                                <a class="link" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                                <a class="link" href="https://youtube.com/channel/UClquCQTWnu6SVeZiJ9XatZQ" target="_blank" rel="noopener noreferrer">
                                     <picture>
                                         <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" />
                                         <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="media" />
@@ -829,7 +879,7 @@
                                 </a>
                             </li>
                             <li class="footer_block-instagram_item">
-                                <a class="link" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                                <a class="link" href="https://youtube.com/channel/UClquCQTWnu6SVeZiJ9XatZQ" target="_blank" rel="noopener noreferrer">
                                     <picture>
                                         <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" />
                                         <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="media" />
@@ -837,7 +887,7 @@
                                 </a>
                             </li>
                             <li class="footer_block-instagram_item">
-                                <a class="link" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                                <a class="link" href="https://youtube.com/channel/UClquCQTWnu6SVeZiJ9XatZQ" target="_blank" rel="noopener noreferrer">
                                     <picture>
                                         <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" />
                                         <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="media" />
@@ -845,7 +895,7 @@
                                 </a>
                             </li>
                             <li class="footer_block-instagram_item">
-                                <a class="link" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                                <a class="link" href="https://youtube.com/channel/UClquCQTWnu6SVeZiJ9XatZQ" target="_blank" rel="noopener noreferrer">
                                     <picture>
                                         <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" />
                                         <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="media" />
@@ -853,7 +903,7 @@
                                 </a>
                             </li>
                             <li class="footer_block-instagram_item">
-                                <a class="link" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                                <a class="link" href="https://youtube.com/channel/UClquCQTWnu6SVeZiJ9XatZQ" target="_blank" rel="noopener noreferrer">
                                     <picture>
                                         <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" />
                                         <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="media" />
@@ -861,7 +911,7 @@
                                 </a>
                             </li>
                             <li class="footer_block-instagram_item">
-                                <a class="link" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                                <a class="link" href="https://youtube.com/channel/UClquCQTWnu6SVeZiJ9XatZQ" target="_blank" rel="noopener noreferrer">
                                     <picture>
                                         <source data-srcset="img/placeholder.jpg" srcset="img/placeholder.jpg" />
                                         <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="media" />
@@ -877,7 +927,7 @@
                     <a class="footer_secondary-scroll" id="scrollToTop" href="#">
                         <i class="icon-angle-up icon"></i>
                     </a>
-                    <p class="footer_secondary-copyright">Copyright @ <span id="currentYear"></span> 2022 Billionaire Flock</p>
+                    <p class="footer_secondary-copyright">Copyright @ <span id="currentYear"></span> Billionaire Flock</p>
                 </div>
             </div>
         </footer>
