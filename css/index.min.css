@@ -1595,7 +1595,7 @@ main>.underlay {
 }
 
 .hero {
-    text-align: center;
+    text-align: top;
     padding: 80px 0 20px
 }
 
@@ -1613,7 +1613,8 @@ main>.underlay {
 }
 
 .hero_content-header {
-    margin-bottom: 30px
+    margin-bottom: 20px
+    
 }
 
 .hero_content-rating {
